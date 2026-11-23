@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Found</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="foundbodybg">
+
+    <h1 id="mainone">
+        FOUND SOMETHING?
+    </h1>
+
+    <p id="thala">Help someone find what they have lost :)</p>
+
+    <hr>
+
+    <div class="nav">
+        <a href="index.html" class="Home">Home page</a> /
+        <a href="lost.html" class="Lost">Lost Something?</a>
+    </div>
+
+    <hr>
+
+    <h2 id="virat">Report a found item</h2>
+
+    <p id="dhoni">Please fill in the details below to report an item you found.</p>
+
+    <form id="item-form">
+
+        <h3>1. What did you find?</h3>
+        <input type="text" id="item-name" placeholder="Enter item name" required>
+
+        <h3>2. Category</h3>
+        <select id="item-category" required>
+            <option value="" disabled selected>Select category</option>
+            <option value="mobile">Mobile</option>
+            <option value="wallet">Wallet</option>
+            <option value="bag">Bag</option>
+            <option value="keys">Keys</option>
+            <option value="watch">Watch</option>
+            <option value="books">Books</option>
+            <option value="jewellery">Jewellery</option>
+            <option value="electronics">Electronics</option>
+            <option value="id-cards">ID Cards</option>
+            <option value="clothing">Clothing</option>
+            <option value="accessories">Accessories</option>
+            <option value="other">Others</option>
+        </select>
+
+        <h3>3. Where was it found?</h3>
+        <input type="text" id="item-location" placeholder="Enter location" required>
+
+        <h3>4. When was it found?</h3>
+        <input type="date" id="item-date" required>
+
+        <h3>5. Contact Details</h3>
+        <p>(Phone number / Email / WhatsApp)</p>
+        <input type="text" id="item-contact" placeholder="Enter contact details" required>
+
+        <h3>6. Upload Item Image</h3>
+        <input type="file" id="item-image" accept="image/*" required>
+
+        <br><br>
+
+        <img id="image-preview" src="" alt="Image Preview" style="display: none; width: 200px;">
+
+        <br><br>
+
+        <button type="submit">SUBMIT</button>
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="javaScript.js"></script>
+
+</body>
+</html>

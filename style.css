@@ -1,0 +1,238 @@
+#mainone
+ {
+    text-align:left;
+    color:#134E4A
+ }
+ #thala{
+
+    text-align: left; 
+    font-size: 18px;
+ }
+ .nav{
+text-align: left;
+color: #07d826;
+
+ }
+ #op {
+   color: blue;
+ }
+ body {
+    background-color:#F0FDFA
+   }
+   #virat{
+
+      text-align: center;
+      color:#421dfd
+      
+   }
+   #dhoni{
+ text-align: center;
+
+}
+
+.item-name {
+   text-align: center;
+}
+#item-select{
+
+   text-align: center;
+   
+}
+.item-category{
+   text-align: center;
+}
+#main-title
+{
+    text-align: center;
+    color: #5f0d0d;
+}
+#welcome-message
+{
+    text-align: center;
+    color: #5f0d0d;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+#found-button:hover,
+#lost-button:hover {
+    transform: scale(1.1);
+    
+}
+#lost-button,
+#found-button {
+    transition: transform 0.3s ease;
+}
+.rectangle {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #dcddf8;
+    border-radius: 10px;
+    text-align: center;
+}
+#main-title {
+    font-weight: bold;
+    font-size: 40px;
+    color: #263b61;
+
+    margin-bottom: 20px;
+}
+.welcome-message {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #536d9d;
+}
+body {
+    background-color: #ebc9c9;
+    font-family: Arial, sans-serif;
+}
+.footer-text {
+    text-align: bottom;
+    margin-top: 20px;
+    color: #5f0d0d;
+}
+.nav{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #071a3d;
+}
+#main-heading {
+    text-align: center;
+    color: #263b61;
+}
+#findmessege {
+    text-align: center;
+    color: #263b61;
+    font-size: 20px;
+    font-style: italic;
+}
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.search-section input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+}
+#category-select {
+    padding: 5px;
+    font-size: 12px;
+}
+.search-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #e6eaf8;
+    border-radius: 10px;
+    text-align: center;
+    gap: ;
+}
+.items-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 30px;
+}
+
+.item-card {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(111, 24, 24, 0.15);
+}
+
+.item-card img {
+    width: 100%;
+    height: 90px;
+    object-fit: scale-down;
+    border-radius: 8px;
+
+}
+.lost-body {
+    background-image: url(images/Pastel\ Lost\ Page\ Placeholder.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.homee {
+    color: #536d9d;
+}
+.found{
+    color: #536d9d;
+}
+
+#item-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#item-form input,
+#item-form select {
+    padding: 10px;
+    width: 300px;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+#item-form button {
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+#item-form h3 {
+    margin-bottom: 10px;
+}
+#mainpagebg {
+    background-image: url(images/Pastel\ Sunset\ Ledge\ with\ Backpack.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+#lost-button img,
+#found-button img {
+    width: 400px;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+#lost-button:hover img,
+#found-button:hover img {
+    transform: scale(1.08);
+}
+#foundbodybg {
+    background-image: url(images/Pastel\ Clipboard\ Checklist\ Form\ Scene.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}

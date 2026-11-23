@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost and Found</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="lost-body">
+
+    <h1 id="main-heading">LOST AND FOUND</h1>
+
+    <hr color="black" size="3">
+
+    <div class="nav">
+        <a href="index.html" class="homee">Home page</a> /
+        <a href="found.html" class="found">Found something?</a>
+    </div>
+
+    <hr color="black" size="3">
+
+    <h2 id="findmessege">Find your lost items here!</h2>
+
+    <div class="search-section">
+
+        <select id="category-select">
+            <option value="">Select a category</option>
+            <option value="mobile">Mobile</option>
+            <option value="wallet">Wallet</option>
+            <option value="bag">Bag</option>
+            <option value="keys">Keys</option>
+            <option value="watch">Watch</option>
+            <option value="books">Books</option>
+            <option value="jewellery">Jewellery</option>
+            <option value="electronics">Electronics</option>
+            <option value="id-cards">ID Cards</option>
+            <option value="clothing">Clothing</option>
+            <option value="accessories">Accessories</option>
+            <option value="other">Others</option>
+        </select>
+
+        <div id="search-items">
+            <input type="text" placeholder="Search for your lost items..." id="search-input">
+            <button id="search-button">Search</button>
+        </div>
+
+    </div>
+
+    <p id="no-results" style="display: none; text-align: center;">
+        No items found!
+    </p>
+
+    <div class="items-container">
+
+        <div class="item-card" data-category="mobile">
+
+            <img src="https://imgs.search.brave.com/NaLxRTUPv4BBYwySyqRR6Buw2UA3_LDsCfKoyW9VxKM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvc2Ftc3VuZy1w/aG9uZS1wbmctdWFr/aXRqemsxY2k4MXU0/cS5wbmc"
+                alt="Samsung phone">
+
+            <h3>Samsung Phone</h3>
+            <p>Category: Mobile</p>
+            <p>Location: Robo Park</p>
+            <p>Date Found: 12/10/2026</p>
+
+            <button>Contact Finder</button>
+
+        </div>
+
+        <div class="item-card" data-category="wallet">
+
+            <img src="images/wallet.png" alt="Wallet">
+
+            <h3>Wallet</h3>
+            <p>Category: Wallet</p>
+            <p>Location: Block 28-302</p>
+            <p>Date Found: 9/10/2026</p>
+
+            <button>Contact Finder</button>
+
+        </div>
+
+        <div class="item-card" data-category="bag">
+
+            <img src="images/bag.png"
+                alt="Bag">
+
+            <h3>Bag</h3>
+            <p>Category: Bag</p>
+            <p>Location: Block 36-804</p>
+            <p>Date Found: 9/10/2026</p>
+
+            <button>Contact Finder</button>
+
+        </div>
+
+        <div class="item-card" data-category="watch">
+
+            <img src="images/watch.png"
+                alt="Watch">
+
+            <h3>Watch</h3>
+            <p>Category: Watch</p>
+            <p>Location: Block 26-402</p>
+            <p>Date Found: 15/10/2026</p>
+
+            <button>Contact Finder</button>
+
+        </div>
+
+        <div class="item-card" data-category="keys">
+
+            <img src="images/keys.png"
+                alt="Keys">
+
+            <h3>Keys</h3>
+            <p>Category: Keys</p>
+            <p>Location: Block 56-502</p>
+            <p>Date Found: 15/10/2026</p>
+
+            <button>Contact Finder</button>
+
+        </div>
+
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="javaScript.js"></script>
+</body>
+
+</html>
